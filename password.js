@@ -3,28 +3,28 @@
 
 //  chiedere nome all'utente
 
-    let nome = parseInt(prompt("inserisci il tuo nome"));
+    let nome = prompt("inserisci il tuo nome");
 
     console.log(nome);
 
 //  chiedere cognome all'utente
 
-    let cognome = parseInt(prompt("inserisci il tuo cognome"));
+    let cognome = prompt("inserisci il tuo cognome");
 
     console.log(cognome);
 
 //  chiedere colore preferito all'utente
 
-    let colore = parseInt(prompt("inserisci il tuo colore preferito"));
+    let colore = prompt("inserisci il tuo colore preferito");
 
     console.log(colore);
 
 //  generazione password (nome + cognome + colore preferito + 21)
 
-    ` password = ${nome} ${cognome} ${colore}21`
+    let password = nome + cognome + colore + 21
 
     console.log(password)
 
     
 
-    document.getElementById("text").innerHTML = ` password `;
+    document.getElementById("text").innerHTML = password;
