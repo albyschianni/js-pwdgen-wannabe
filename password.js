@@ -21,10 +21,8 @@
 
 //  generazione password (nome + cognome + colore preferito + 21)
 
-    let password = nome + cognome + colore + 21
+    let password = nome + cognome + colore + 21;
 
-    console.log(password)
-
-    
+    console.log(password);
 
     document.getElementById("text").innerHTML = password;
